@@ -25,5 +25,6 @@ jobs:
     - name: Test with pytest
       run: |
         conda install pytest
-        pip install -U cqlsh
+        pip install cqlsh
+        pip install -e .
         pytest
