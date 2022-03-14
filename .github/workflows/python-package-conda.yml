@@ -45,5 +45,6 @@ jobs:
               source py38-venv/bin/activate && \
               pip install cqlsh && \
               pip install -e . && \
+              pip install pytest && \
               pytest && \
               deactivate'     
